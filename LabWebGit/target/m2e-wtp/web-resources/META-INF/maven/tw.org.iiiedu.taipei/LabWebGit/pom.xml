@@ -16,6 +16,7 @@
 	</properties>
 
 	<dependencies>
+<<<<<<< HEAD
 		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
@@ -47,6 +48,41 @@
 			<version>3.0.1</version>
 			<scope>provided</scope>
 		</dependency>
+=======
+
+
+		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+<dependency>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>7.0.0.jre10</version>
+    <scope>runtime</scope>
+</dependency>
+		
+
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<!-- JSP 2.2 API -->
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>2.2.1</version>
+			<scope>provided</scope>
+		</dependency>
+
+
+		<!-- Servlet 3.0 API -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+>>>>>>> branch 'master' of https://github.com/EEIT10505/Remote20190212.git
 
 		<!-- test dependencies -->
 		<dependency>
