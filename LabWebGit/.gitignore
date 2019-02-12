@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 /target/
-/.settings/
-.class
-/.project/
-=======
-/.settings/
-/target/
-.class
->>>>>>> branch 'master' of https://github.com/EEIT10505/Remote20190212.git
->>>>>>> branch 'master' of https://github.com/EEIT10505/Remote20190212.git
+/.settings
+/.project
+/.classpath
